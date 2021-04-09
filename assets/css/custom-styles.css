@@ -355,17 +355,23 @@
   opacity: 0.7;
 }
 
-/* line 283, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 282, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+.nav-trigger:focus {
+  outline: 0 !important;
+  border: 0 !important;
+}
+
+/* line 287, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .nav-trigger.active {
   outline: 0;
 }
 
-/* line 285, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 289, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .nav-trigger.active:hover {
   opacity: 0.7;
 }
 
-/* line 289, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 293, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .nav-trigger-box {
   width: 28px;
   height: 24px;
@@ -373,7 +379,7 @@
   position: relative;
 }
 
-/* line 295, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 299, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .nav-trigger-inner {
   display: block;
   top: 50%;
@@ -388,7 +394,7 @@
   transition-timing-function: ease;
 }
 
-/* line 307, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 311, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .nav-trigger-inner::after {
   width: 14px;
   height: 4px;
@@ -403,7 +409,7 @@
   bottom: -10px;
 }
 
-/* line 320, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 324, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .nav-trigger-inner::before {
   width: 28px;
   height: 4px;
@@ -418,12 +424,12 @@
   top: -10px;
 }
 
-/* line 335, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 339, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .nav-trigger-slider .nav-trigger-inner {
   top: 2px;
 }
 
-/* line 337, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 341, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .nav-trigger-slider .nav-trigger-inner::before {
   top: 10px;
   transition-property: transform, opacity;
@@ -431,37 +437,37 @@
   transition-duration: 0.35s;
 }
 
-/* line 343, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 347, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .nav-trigger-slider .nav-trigger-inner::after {
   top: 20px;
 }
 
-/* line 349, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 353, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .nav-trigger-slider.active .nav-trigger-inner {
   width: 36px;
   transform: translate3d(0, 10px, 0) rotate(-45deg);
 }
 
-/* line 352, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 356, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .nav-trigger-slider.active .nav-trigger-inner::before {
   width: 36px;
   transform: rotate(45deg) translate3d(5.71429px, -6px, 0);
   opacity: 0;
 }
 
-/* line 357, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 361, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .nav-trigger-slider.active .nav-trigger-inner::after {
   width: 36px;
   transform: translate3d(0, -20px, 0) rotate(90deg);
 }
 
-/* line 363, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 367, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .active-menu {
   position: relative;
   transition: all 1s linear 0s;
 }
 
-/* line 366, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 370, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .active-menu:before {
   content: '';
   background: #B1D95B;
@@ -475,24 +481,24 @@
   padding-bottom: 90px;
 }
 
-/* line 379, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 383, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .navbar-collapse {
   padding-top: 0;
 }
 
-/* line 381, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 385, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .navbar-collapse ul.navbar-nav {
   padding-top: 56px;
   padding-bottom: 100px;
 }
 
-/* line 384, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 388, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .navbar-collapse ul.navbar-nav .nav-item {
   margin-right: 35px;
   transition: all 0.5s linear 0s;
 }
 
-/* line 388, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 392, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .navbar-collapse ul.navbar-nav .nav-link {
   color: #fff;
   font-size: 26px;
@@ -504,18 +510,18 @@
 }
 
 @media only screen and (min-width: 992px) {
-  /* line 402, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 406, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .navbar-collapse {
     justify-content: flex-end;
   }
-  /* line 403, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 407, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .navbar-collapse ul.navbar-nav {
     padding-top: 8px;
     padding-right: 0;
     margin-right: 0 !important;
     padding-bottom: 0;
   }
-  /* line 408, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 412, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .navbar-collapse ul.navbar-nav .nav-link {
     color: #000;
     font-size: 12px;
@@ -525,17 +531,17 @@
     border-bottom: 0;
     position: relative;
   }
-  /* line 416, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 420, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .navbar-collapse ul.navbar-nav .nav-link:hover {
     color: #B1D95B;
     padding-bottom: 6px;
   }
-  /* line 419, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 423, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .navbar-collapse ul.navbar-nav .nav-link:hover:after {
     display: block;
     width: 100%;
   }
-  /* line 424, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 428, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .navbar-collapse ul.navbar-nav .nav-link:after {
     display: none;
     content: '';
@@ -550,23 +556,23 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 444, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 448, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .navbar-collapse ul.navbar-nav {
     padding-top: 8px;
     padding-right: 0;
     margin-right: 0 !important;
     padding-bottom: 0;
   }
-  /* line 449, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 453, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .navbar-collapse ul.navbar-nav .nav-item {
     margin-right: initial;
     margin-left: 37px;
   }
-  /* line 450, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 454, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .navbar-collapse ul.navbar-nav .nav-item:first-child {
     margin-left: 0;
   }
-  /* line 456, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 460, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .navbar-collapse ul.navbar-nav .nav-link {
     font-size: 15px;
   }
@@ -579,14 +585,14 @@
   }
 }
 
-/* line 473, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 477, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .slider-wrapper {
   padding-left: 0;
   padding-right: 0;
   overflow-x: hidden;
 }
 
-/* line 478, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 482, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container {
   margin-left: auto;
   margin-right: auto;
@@ -597,7 +603,7 @@
   z-index: 1;
 }
 
-/* line 486, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 490, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container .swiper-notification {
   position: absolute;
   left: 0;
@@ -607,38 +613,38 @@
   z-index: -1000;
 }
 
-/* line 496, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 500, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-vertical > .swiper-wrapper {
   flex-direction: column;
 }
 
-/* line 499, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 503, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 10px;
   top: 50%;
   transform: translate3d(0px, -50%, 0);
 }
 
-/* line 503, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 507, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 6px 0;
   display: block;
 }
 
-/* line 508, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 512, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
   top: 50%;
   transform: translateY(-50%);
   width: 8px;
 }
 
-/* line 512, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 516, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
   display: inline-block;
   transition: 200ms transform, 200ms top;
 }
 
-/* line 517, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 521, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
   width: 100%;
   height: 4px;
@@ -646,7 +652,7 @@
   top: 0;
 }
 
-/* line 523, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 527, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-vertical > .swiper-pagination-progressbar {
   width: 4px;
   height: 100%;
@@ -654,7 +660,7 @@
   top: 0;
 }
 
-/* line 529, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 533, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-vertical > .swiper-scrollbar {
   position: absolute;
   right: 3px;
@@ -664,7 +670,7 @@
   height: 98%;
 }
 
-/* line 538, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 542, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-wrapper {
   position: relative;
   width: 100%;
@@ -676,29 +682,29 @@
   transform: translate3d(0px, 0, 0);
 }
 
-/* line 549, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 553, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-android .swiper-slide {
   transform: translate3d(0px, 0, 0);
 }
 
-/* line 554, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 558, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-multirow > .swiper-wrapper {
   flex-wrap: wrap;
 }
 
-/* line 559, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 563, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-multirow-column > .swiper-wrapper {
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-/* line 565, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 569, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-free-mode > .swiper-wrapper {
   transition-timing-function: ease-out;
   margin: 0 auto;
 }
 
-/* line 570, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 574, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-slide {
   flex-shrink: 0;
   width: 100%;
@@ -711,7 +717,7 @@
   flex-direction: column;
 }
 
-/* line 580, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 584, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-slide .h2 {
   color: #fff;
   position: relative;
@@ -723,49 +729,49 @@
   margin-bottom: 1rem;
 }
 
-/* line 590, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 594, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-slide .btn-wrapper {
   position: relative;
   z-index: 1;
 }
 
-/* line 595, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 599, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-slide-invisible-blank {
   visibility: hidden;
 }
 
-/* line 598, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 602, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-autoheight {
   height: auto;
 }
 
-/* line 600, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 604, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-autoheight .swiper-slide {
   height: auto;
 }
 
-/* line 603, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 607, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-autoheight .swiper-wrapper {
   align-items: flex-start;
   transition-property: transform, height;
 }
 
-/* line 608, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 612, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-3d {
   perspective: 1200px;
 }
 
-/* line 610, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 614, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-3d .swiper-wrapper {
   transform-style: preserve-3d;
 }
 
-/* line 613, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 617, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-3d .swiper-slide {
   transform-style: preserve-3d;
 }
 
-/* line 616, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 620, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-3d .swiper-slide-shadow-left {
   transform-style: preserve-3d;
   position: absolute;
@@ -778,7 +784,7 @@
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
-/* line 627, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 631, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-3d .swiper-slide-shadow-right {
   transform-style: preserve-3d;
   position: absolute;
@@ -791,7 +797,7 @@
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
-/* line 638, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 642, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-3d .swiper-slide-shadow-top {
   transform-style: preserve-3d;
   position: absolute;
@@ -804,7 +810,7 @@
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
-/* line 649, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 653, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-3d .swiper-slide-shadow-bottom {
   transform-style: preserve-3d;
   position: absolute;
@@ -817,39 +823,39 @@
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
-/* line 660, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 664, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-3d .swiper-cube-shadow {
   transform-style: preserve-3d;
 }
 
-/* line 665, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 669, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-css-mode > .swiper-wrapper {
   overflow: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
 
-/* line 669, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 673, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-css-mode > .swiper-wrapper::-webkit-scrollbar {
   display: none;
 }
 
-/* line 672, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 676, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-css-mode > .swiper-wrapper > .swiper-slide {
   scroll-snap-align: start start;
 }
 
-/* line 678, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 682, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-horizontal.swiper-container-css-mode > .swiper-wrapper {
   scroll-snap-type: x mandatory;
 }
 
-/* line 683, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 687, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-vertical.swiper-container-css-mode > .swiper-wrapper {
   scroll-snap-type: y mandatory;
 }
 
-/* line 687, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 691, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-button-prev1 {
   position: absolute;
   top: 50%;
@@ -862,7 +868,7 @@
   height: 40px;
 }
 
-/* line 697, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 701, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-button-prev1:after {
   content: '';
   background-image: url("../images/prev.svg");
@@ -872,7 +878,7 @@
   height: 100%;
 }
 
-/* line 707, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 711, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-button-next1 {
   position: absolute;
   top: 50%;
@@ -887,7 +893,7 @@
   left: auto;
 }
 
-/* line 719, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 723, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-button-next1:after {
   content: '';
   background-image: url("../images/next.svg");
@@ -897,59 +903,59 @@
   height: 100%;
 }
 
-/* line 728, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 732, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-button-next1, .swiper-button-prev1 {
   display: none;
 }
 
-/* line 729, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 733, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-button-prev.swiper-button-disabled {
   opacity: 0.35;
   cursor: auto;
   pointer-events: none;
 }
 
-/* line 734, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 738, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-button-next.swiper-button-disabled {
   opacity: 0.35;
   cursor: auto;
   pointer-events: none;
 }
 
-/* line 739, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 743, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-button-prev {
   left: 10px;
   right: auto;
 }
 
-/* line 744, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 748, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-rtl .swiper-button-next {
   left: 10px;
   right: auto;
 }
 
-/* line 748, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 752, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-rtl .swiper-button-prev1 {
   right: 10px;
   left: auto;
 }
 
-/* line 753, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 757, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
   transform-origin: right top;
 }
 
-/* line 758, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 762, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-button-lock {
   display: none;
 }
 
-/* line 761, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 765, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 swiper-pagination1 {
   display: none;
 }
 
-/* line 762, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 766, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination1 {
   position: absolute;
   text-align: center;
@@ -959,12 +965,12 @@ swiper-pagination1 {
   text-align: right;
 }
 
-/* line 770, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 774, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination.swiper-pagination-hidden {
   opacity: 0;
 }
 
-/* line 773, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 777, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-fraction {
   bottom: 20px;
   left: 0;
@@ -972,7 +978,7 @@ swiper-pagination1 {
   padding-right: 20px;
 }
 
-/* line 779, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 783, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-custom {
   bottom: 20px;
   left: 0;
@@ -980,7 +986,7 @@ swiper-pagination1 {
   padding-right: 20px;
 }
 
-/* line 786, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 790, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-horizontal > .swiper-pagination-bullets {
   bottom: 20px;
   left: 0;
@@ -988,24 +994,24 @@ swiper-pagination1 {
   padding-right: 20px;
 }
 
-/* line 791, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 795, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 7px;
 }
 
-/* line 795, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 799, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
 }
 
-/* line 799, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 803, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
   transition: 200ms transform, 200ms left;
 }
 
-/* line 803, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 807, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-horizontal > .swiper-pagination-progressbar {
   width: 100%;
   height: 4px;
@@ -1013,7 +1019,7 @@ swiper-pagination1 {
   top: 0;
 }
 
-/* line 809, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 813, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-horizontal > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
   width: 4px;
   height: 100%;
@@ -1021,7 +1027,7 @@ swiper-pagination1 {
   top: 0;
 }
 
-/* line 815, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 819, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-horizontal > .swiper-scrollbar {
   position: absolute;
   left: 1%;
@@ -1031,49 +1037,49 @@ swiper-pagination1 {
   width: 98%;
 }
 
-/* line 824, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 828, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-bullets-dynamic {
   overflow: hidden;
   font-size: 0;
 }
 
-/* line 827, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 831, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
   transform: scale(0.33);
   position: relative;
 }
 
-/* line 831, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 835, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
   transform: scale(1);
 }
 
-/* line 834, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 838, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
   transform: scale(1);
 }
 
-/* line 837, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 841, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
   transform: scale(0.66);
 }
 
-/* line 840, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 844, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
   transform: scale(0.33);
 }
 
-/* line 843, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 847, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
   transform: scale(0.66);
 }
 
-/* line 846, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 850, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
   transform: scale(0.33);
 }
 
-/* line 850, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 854, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
@@ -1081,7 +1087,7 @@ swiper-pagination1 {
   background: #fff;
 }
 
-/* line 856, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 860, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 button.swiper-pagination-bullet {
   border: none;
   margin: 0;
@@ -1092,29 +1098,29 @@ button.swiper-pagination-bullet {
   appearance: none;
 }
 
-/* line 866, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 870, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-clickable .swiper-pagination-bullet {
   cursor: pointer;
 }
 
-/* line 870, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 874, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-bullet-active {
   opacity: 1;
   background: #B1D95B;
 }
 
-/* line 876, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 880, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-horizontal.swiper-container-rtl > .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
   transition: 200ms transform, 200ms right;
 }
 
-/* line 881, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 885, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-progressbar {
   background: rgba(0, 0, 0, 0.25);
   position: absolute;
 }
 
-/* line 884, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 888, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
   background: transparent;
   position: absolute;
@@ -1126,22 +1132,22 @@ button.swiper-pagination-bullet {
   transform-origin: left top;
 }
 
-/* line 895, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 899, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-white {
   color: #ffffff;
 }
 
-/* line 898, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 902, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-black {
   color: #000000;
 }
 
-/* line 901, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 905, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-pagination-lock {
   display: none;
 }
 
-/* line 904, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 908, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-scrollbar {
   border-radius: 10px;
   position: relative;
@@ -1149,7 +1155,7 @@ button.swiper-pagination-bullet {
   background: rgba(0, 0, 0, 0.1);
 }
 
-/* line 910, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 914, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-scrollbar-drag {
   height: 100%;
   width: 100%;
@@ -1160,17 +1166,17 @@ button.swiper-pagination-bullet {
   top: 0;
 }
 
-/* line 919, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 923, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-scrollbar-cursor-drag {
   cursor: move;
 }
 
-/* line 922, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 926, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-scrollbar-lock {
   display: none;
 }
 
-/* line 925, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 929, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-zoom-container {
   width: 100%;
   height: 100%;
@@ -1180,33 +1186,33 @@ button.swiper-pagination-bullet {
   text-align: center;
 }
 
-/* line 932, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 936, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-zoom-container > img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
 }
 
-/* line 937, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 941, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-zoom-container > svg {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
 }
 
-/* line 942, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 946, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-zoom-container > canvas {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
 }
 
-/* line 948, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 952, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-slide-zoomed {
   cursor: move;
 }
 
-/* line 951, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 955, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-lazy-preloader {
   width: 42px;
   height: 42px;
@@ -1224,48 +1230,48 @@ button.swiper-pagination-bullet {
   border-top-color: transparent;
 }
 
-/* line 967, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 971, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-lazy-preloader-white {
   color: #fff;
 }
 
-/* line 970, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 974, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-lazy-preloader-black {
   color: #000;
 }
 
-/* line 974, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 978, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-fade.swiper-container-free-mode .swiper-slide {
   transition-timing-function: ease-out;
 }
 
-/* line 979, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 983, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-fade .swiper-slide {
   pointer-events: none;
   transition-property: opacity;
 }
 
-/* line 982, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 986, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-fade .swiper-slide .swiper-slide {
   pointer-events: none;
 }
 
-/* line 986, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 990, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-fade .swiper-slide-active {
   pointer-events: auto;
 }
 
-/* line 988, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 992, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-fade .swiper-slide-active .swiper-slide-active {
   pointer-events: auto;
 }
 
-/* line 993, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 997, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube {
   overflow: visible;
 }
 
-/* line 995, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 999, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube .swiper-slide {
   pointer-events: none;
   -webkit-backface-visibility: hidden;
@@ -1277,70 +1283,70 @@ button.swiper-pagination-bullet {
   height: 100%;
 }
 
-/* line 1004, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1008, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube .swiper-slide .swiper-slide {
   pointer-events: none;
 }
 
-/* line 1008, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1012, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube .swiper-slide-active {
   pointer-events: auto;
   pointer-events: auto;
   visibility: visible;
 }
 
-/* line 1012, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1016, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube .swiper-slide-active .swiper-slide-active {
   pointer-events: auto;
 }
 
-/* line 1016, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1020, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube .swiper-slide-next {
   pointer-events: auto;
   visibility: visible;
 }
 
-/* line 1020, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1024, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube .swiper-slide-next + .swiper-slide {
   pointer-events: auto;
   visibility: visible;
 }
 
-/* line 1026, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1030, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube .swiper-slide-prev {
   pointer-events: auto;
   visibility: visible;
 }
 
-/* line 1030, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1034, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube .swiper-slide-shadow-top {
   z-index: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-/* line 1035, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1039, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube .swiper-slide-shadow-bottom {
   z-index: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-/* line 1040, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1044, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube .swiper-slide-shadow-left {
   z-index: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-/* line 1045, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1049, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube .swiper-slide-shadow-right {
   z-index: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-/* line 1050, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1054, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube .swiper-cube-shadow {
   position: absolute;
   left: 0;
@@ -1354,17 +1360,17 @@ button.swiper-pagination-bullet {
   z-index: 0;
 }
 
-/* line 1064, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1068, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-cube.swiper-container-rtl .swiper-slide {
   transform-origin: 100% 0;
 }
 
-/* line 1068, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1072, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-flip {
   overflow: visible;
 }
 
-/* line 1070, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1074, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-flip .swiper-slide {
   pointer-events: none;
   -webkit-backface-visibility: hidden;
@@ -1372,55 +1378,55 @@ button.swiper-pagination-bullet {
   z-index: 1;
 }
 
-/* line 1075, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1079, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-flip .swiper-slide .swiper-slide {
   pointer-events: none;
 }
 
-/* line 1079, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1083, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-flip .swiper-slide-active {
   pointer-events: auto;
 }
 
-/* line 1081, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1085, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-flip .swiper-slide-active .swiper-slide-active {
   pointer-events: auto;
 }
 
-/* line 1085, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1089, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-flip .swiper-slide-shadow-top {
   z-index: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-/* line 1090, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1094, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-flip .swiper-slide-shadow-bottom {
   z-index: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-/* line 1095, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1099, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-flip .swiper-slide-shadow-left {
   z-index: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-/* line 1100, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1104, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper-container-flip .swiper-slide-shadow-right {
   z-index: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-/* line 1106, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1110, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .swiper1 {
   height: 480px;
 }
 
-/* line 1109, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1113, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .btn-one {
   background: #ff651a;
   padding: 1em;
@@ -1429,7 +1435,7 @@ button.swiper-pagination-bullet {
   text-decoration: none;
 }
 
-/* line 1116, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1120, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .social-media-icons {
   position: absolute;
   z-index: 100;
@@ -1437,14 +1443,14 @@ button.swiper-pagination-bullet {
   left: 20px;
 }
 
-/* line 1121, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1125, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .social-media-icons img {
   width: 25px;
   height: auto;
   margin-right: 15px;
 }
 
-/* line 1127, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1131, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .slider-next-section {
   position: absolute;
   bottom: 20px;
@@ -1455,13 +1461,13 @@ button.swiper-pagination-bullet {
   margin: auto;
 }
 
-/* line 1135, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1139, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .slider-next-section img {
   width: 40px;
   height: auto;
 }
 
-/* line 1140, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1144, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .slider-description {
   position: relative;
   z-index: 1;
@@ -1473,7 +1479,7 @@ button.swiper-pagination-bullet {
   padding-top: 50px;
 }
 
-/* line 1141, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1145, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .slider-description p {
   color: #fff;
   font-family: 'Crimson Text';
@@ -1481,35 +1487,35 @@ button.swiper-pagination-bullet {
   line-height: 32px;
 }
 
-/* line 1146, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1150, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .slider-description p a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 1160, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1164, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .introduction {
   padding-top: 90px;
 }
 
 @media only screen and (min-width: 992px) {
-  /* line 1167, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1171, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .swiper-button-next1, .swiper-button-prev1 {
     display: flex;
   }
-  /* line 1168, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1172, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .swiper-pagination1 {
     display: block;
   }
-  /* line 1170, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1174, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .social-media-icons {
     display: block;
   }
-  /* line 1173, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1177, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .slider-next-section {
     display: block;
   }
-  /* line 1176, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1180, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .slider-description {
     width: 845px;
     background: rgba(255, 255, 255, 0.85);
@@ -1520,47 +1526,47 @@ button.swiper-pagination-bullet {
     padding-right: 40px;
     margin-top: 60px;
   }
-  /* line 1185, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1189, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .slider-description p {
     color: #000;
     line-height: 42px;
     font-weight: 600;
   }
-  /* line 1189, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1193, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .slider-description p a {
     color: #B1D95B;
   }
 }
 
 @media only screen and (min-height: 480px) {
-  /* line 1198, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1202, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .swiper1 {
     height: 100vh;
   }
 }
 
 @media only screen and (min-width: 767px) {
-  /* line 1204, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1208, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .swiper-slide .h2 {
     font-size: 3rem;
     font-weight: 600;
   }
-  /* line 1209, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1213, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .swiper-button-prev1 {
     left: 50px;
     right: auto;
   }
-  /* line 1215, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1219, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .swiper-container-rtl .swiper-button-next1 {
     left: 50px;
     right: auto;
   }
-  /* line 1219, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1223, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .swiper-container-rtl .swiper-button-prev1 {
     right: 50px;
     left: auto;
   }
-  /* line 1224, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1228, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .swiper-button-next1 {
     right: 50px;
     left: auto;
@@ -1568,46 +1574,47 @@ button.swiper-pagination-bullet {
 }
 
 /* Layout1 */
-/* line 1233, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1237, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .layout1 {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-/* line 1234, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1238, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .layout1 .p a {
   color: #000;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 1238, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1242, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .layout1 {
     padding-top: 100px;
   }
-  /* line 1239, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1243, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .layout1 .p a {
     color: #B1D95B;
   }
 }
 
 /* Layout2 */
-/* line 1245, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1249, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .layout2 {
   background: #f2f2f2;
   padding-top: 60px;
 }
 
-/* line 1246, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1250, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .layout2 .title {
   font-family: 'crimson text';
 }
 
-/* line 1247, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1251, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .layout2 .block {
   margin-bottom: 20px;
   padding-bottom: 15px;
 }
 
-/* line 1249, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1253, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .layout2 .block:after {
   content: '';
   background: #D9D1BA;
@@ -1618,162 +1625,185 @@ button.swiper-pagination-bullet {
   left: -10%;
 }
 
-/* line 1259, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1263, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .layout2 .img-block {
   padding-left: 0;
   padding-right: 0;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 1264, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1268, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .layout2 {
     padding-top: 70px;
   }
-  /* line 1265, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1269, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .layout2 .title {
     font-size: 20px;
   }
-  /* line 1266, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1270, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .layout2 .block {
     padding-left: 60px;
     padding-right: 60px;
   }
-  /* line 1269, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1273, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .layout2 .block:after {
     display: none;
   }
-  /* line 1270, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1274, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .layout2 .block .description {
     margin-top: 10px;
   }
-  /* line 1272, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1276, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .layout2 .img-block .img {
     width: 200px;
   }
 }
 
 /* Layout3 */
-/* line 1281, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1285, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .layout3 {
   background: #fff;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-/* line 1282, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block {
-  position: relative;
-  height: 100%;
-  margin-bottom: 30px;
-}
-
-/* line 1283, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block .image-block {
-  position: relative;
-  left: 0;
-  top: 0;
-}
-
-/* line 1284, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block .image-block .img {
-  max-height: 100%;
-}
-
 /* line 1286, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block .description-block {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: none;
-}
-
-/* line 1287, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block .description-block:hover .content-wrapper {
-  opacity: 1;
+.layout3 .product-grid {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* line 1288, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block .description-block .content-wrapper {
-  position: absolute;
-  z-index: 10;
-  opacity: 0;
-  height: 100%;
-  transition: all 0.25s linear 0s;
+.layout3 .product-grid .product-block {
+  margin-bottom: 20px;
 }
 
 /* line 1289, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block .description-block .content-wrapper .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 15%;
-  top: 0;
-  background: rgba(177, 217, 91, 0.85);
-  position: relative;
-  max-height: 100%;
+.layout3 .product-grid .title.mobile {
+  font-family: 'crimson text';
+  font-size: 18px;
 }
 
 /* line 1290, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block .description-block .content-wrapper .content .title {
-  color: #fff;
-  position: relative;
-  font-weight: 500;
-  height: 40px;
+.layout3 .product-grid .detail-block.mobile .description {
   font-family: 'crimson text';
-  font-size: 26px;
-}
-
-/* line 1291, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block .description-block .content-wrapper .content .title:after {
-  content: '';
-  background: #fff;
-  height: 2px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0%;
-}
-
-/* line 1301, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block .description-block .content-wrapper .content .description {
   font-size: 16px;
-}
-
-/* line 1302, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block .description-block .content-wrapper .content .btn-wrapper {
-  margin-top: 30px;
-  position: absolute;
-  bottom: 0;
-}
-
-/* line 1303, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block .description-block .content-wrapper .content .btn-wrapper .more-button1 {
-  text-decoration: none;
-}
-
-/* line 1304, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block .description-block .content-wrapper .content .btn-wrapper .more-button1 .text {
-  padding-left: 20px;
-}
-
-/* line 1305, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
-.layout3 .product-block .description-block .content-wrapper .content .btn-wrapper .more-button1:hover .text {
-  padding-left: 10px;
-  color: #fff;
+  line-height: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 1318, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  /* line 1296, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
   .layout3 {
     padding-top: 70px;
     padding-bottom: 70px;
   }
+  /* line 1299, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 1301, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .title.mobile {
+    display: none;
+  }
+  /* line 1302, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .detail-block {
+    display: none;
+  }
+  /* line 1303, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block {
+    position: relative;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  /* line 1304, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block .image-block {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  /* line 1305, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block .image-block .img {
+    max-height: 100%;
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+  /* line 1307, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block .description-block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 1308, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block .description-block:hover .content-wrapper {
+    opacity: 1;
+  }
+  /* line 1309, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block .description-block .content-wrapper {
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    height: 100%;
+    transition: all 0.25s linear 0s;
+  }
+  /* line 1310, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block .description-block .content-wrapper .content {
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+    top: 0;
+    background: rgba(177, 217, 91, 0.85);
+    position: relative;
+    height: 100%;
+    max-height: 100%;
+  }
+  /* line 1311, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block .description-block .content-wrapper .content .title {
+    color: #fff;
+    position: relative;
+    font-weight: 500;
+    height: 40px;
+    font-family: 'crimson text';
+    font-size: 26px;
+  }
+  /* line 1312, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block .description-block .content-wrapper .content .title:after {
+    content: '';
+    background: #fff;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+  }
+  /* line 1322, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block .description-block .content-wrapper .content .description {
+    font-size: 16px;
+  }
+  /* line 1323, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block .description-block .content-wrapper .content .btn-wrapper {
+    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+  }
+  /* line 1324, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block .description-block .content-wrapper .content .btn-wrapper .more-button1 {
+    text-decoration: none;
+  }
+  /* line 1325, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block .description-block .content-wrapper .content .btn-wrapper .more-button1 .text {
+    padding-left: 20px;
+  }
+  /* line 1326, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+  .layout3 .product-grid .product-block .description-block .content-wrapper .content .btn-wrapper .more-button1:hover .text {
+    padding-left: 10px;
+    color: #fff;
+  }
 }
 
 /* Layout 4 */
-/* line 1329, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
+/* line 1344, E:/igments_____website_____projects/spawos-bundesverband/website/assets/scss/custom-styles.scss */
 .layout4 {
   background: url(../images/layout4-bg-image.jpg);
   min-height: 300px;
