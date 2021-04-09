@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "bootstrap.css",
+	"sources": [
+		"../scss/bootstrap.scss"
+	],
+	"sourcesContent": [
+		"/* CSS Document */\r\n\r\n@import 'bootstrap/bootstrap.css';\r\n\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,kBAAkB;AAElB,OAAO,CAAP,4BAAO"
+}
